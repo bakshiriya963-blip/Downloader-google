@@ -7,7 +7,7 @@ os.makedirs("downloads", exist_ok=True)
 
 HTML = """
 <html>
-<head><meta name="viewport" content="width=device-width,initial-scale=1">
+<head><meta name="google-site-verification" content="KwJ-s4omakls6BGHcU5r05jNjWzXJSpUOeHvqhyEN8U" /><meta name="viewport" content="width=device-width,initial-scale=1">
 <style>
 body{background:#111;color:#fff;font-family:sans-serif;text-align:center;padding:20px}
 input{width:95%;padding:14px;border-radius:10px;border:none;margin:10px 0}
