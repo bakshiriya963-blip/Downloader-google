@@ -50,6 +50,13 @@ def home():
 @app.route('/downloads/<path:name>')
 def dl(name):
     return send_from_directory("downloads", name, as_attachment=True)
+@app.route('/sitemap.xml')
+def sitemap():
+    return send_from_directory('.', 'sitemap.xml', mimetype='application/xml')
+
+@app.route('/robots.txt')
+def robots():
+    return send_from_directory('.', 'robots.txt', mimetype='text/plain')
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=8080)
